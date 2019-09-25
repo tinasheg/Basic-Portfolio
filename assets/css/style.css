@@ -1,0 +1,46 @@
+body {
+    /* background-color: #777777; */
+    background-image: url(assets/images/beanstalk.png);
+    box-sizing: border-box; 
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* padding: 5px; */
+}
+
+header {
+    /* background-color: #ffffff; */
+    border-color: #cccccc;
+}
+
+.name {
+    background: #4aaaa5;
+    width: fit-content;
+}
+
+.links {
+    font-size: 12px;
+}
+
+h2 {
+    color: #4aaaa5;
+    background: #ffffff;
+}
+
+.main {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+footer {
+    background: #666666;
+    padding: 20px;
+}
+

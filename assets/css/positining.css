@@ -1,0 +1,24 @@
+header {
+    position: fixed;
+}
+
+.name {
+    position: absolute;
+}
+
+#about {
+    float: right;
+}
+
+.links {
+    position: absolute;
+    top: 6%;
+    right: 5%;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+
+
