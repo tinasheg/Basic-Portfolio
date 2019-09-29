@@ -8,6 +8,7 @@
   <!-- <link rel="stylesheet" href="assets/css/positining.css"> -->
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
   <style>
     body {
       background-image: url("assets/images/beanstalk.png")
@@ -26,13 +27,13 @@
 
         <div class="link-container">
           <section id="about" class="link">
-            <a href="index.html">About</a> 
+            <a href="index.html">About</a>
           </section>
           <section id="contact" class="link">
-            <a href="contact.html">Contact</a> 
+            <a href="contact.html">Contact</a>
           </section>
           <section id="portfolio" class="link">
-            <a href="portfolio.html">Portfolio</a> 
+            <a href="portfolio.html">Portfolio</a>
           </section>
         </div>
 
@@ -42,7 +43,23 @@
     <section id="main-content" class="main-content-section">
       <h1>Contact</h1>
       <div class="content">
-        
+        <form id="contact" action="" method="post">
+          <p>Name</p>
+          <fieldset>
+            <input placeholder="John Smith" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <p>Email</p>
+          <fieldset>
+            <input placeholder="example@gmail.com" type="email" tabindex="2" required>
+          </fieldset>
+          <p>Message</p>
+          <fieldset>
+            <textarea placeholder="" tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
       </div>
     </section>
 

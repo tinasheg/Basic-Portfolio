@@ -1,0 +1,29 @@
+.project{
+    float: left;
+    padding: 0px 45px 10px;
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    /* height: fit-content; */
+    width: 225px;
+    padding: 10px 20px 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    bottom: 50px;
+}
+
+img {
+    height: 180px;
+    padding-right: 0px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 4px #4aaaa5;
+}
